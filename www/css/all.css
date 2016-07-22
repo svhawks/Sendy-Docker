@@ -1,0 +1,202 @@
+body {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+.sidebar-nav {
+	padding: 9px 0;
+}
+#preview-iframe{
+	width: 100%;
+	height: 800px;
+	overflow-y: auto;
+	border: none;
+}
+.loader{
+	display: none;
+	margin-left: 10px;
+}
+footer{
+	font-size: 12px;
+}
+footer a{
+	text-decoration: underline;
+}
+#html{
+	width: 100%;
+	height: 397px;
+}
+#pagination{
+	margin: 30px 0 20px 0;
+}
+#edit-form #plain, #edit-form #subject, #edit-form #campaign_title, #edit-form #from_name, #edit-form #from_email, #edit-form #reply_to, #edit-form #template_name{
+	width:98%;
+}
+.wysiwyg-note{
+	font-size: 10px; 
+	color: #919191; 
+	float:left; 
+	margin:5px 0 0 5px;
+}
+.grand_total{
+	font-size: 16px;
+	padding: 10px 15px;
+	background: #FFFAE4;
+}
+.schedule-date{
+	float:left;
+	margin-right: 5px;
+	width: 55px;
+}
+.gravatar{
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#thankyou_message, #confirmation_email{
+	width: 100%;
+	height: 340px;
+}
+#goodbye_message{
+	width: 100%;
+	height: 430px;
+}
+.report-titles{
+	float: left;
+}
+.report-export{
+	float: left;
+	margin: 10px 0 0 10px;
+}
+.data-type{
+	position: relative;
+	top: 5px;
+	left: 5px;
+	color: #979797;
+	float: right;
+}
+.error{
+	color: #FF0000;
+}
+#field-name{
+	float: left;
+	margin-bottom: 5px;
+}
+#field-name .left{
+	float: left;
+	margin-right: 10px;
+}
+#field-name .right{
+	float: right;
+}
+#c_button{
+	clear: both;
+	float: left;
+}
+.ares-email-table thead tr, .ares-email-table tbody tr{
+	height: 50px;
+}
+.ares-email-table tbody tr td{
+	padding: 20px 8px;
+}
+.ares-email-table tbody tr td a{
+	text-decoration: underline;
+}
+.ares-email-table tbody tr td strong{
+	font-size: 16px;
+}
+.ares-email-table tbody tr td .btns{
+	margin-top: 5px;
+}
+.ares-email-table{
+	margin-bottom: 5px;
+}
+ul.ares_email_options{
+	list-style: none;
+	margin-left: 0px;
+}
+ul.ares_email_options li{
+	float: left;
+	margin-right: 7px;
+}
+select, input[type="file"]{
+	height: 28px;
+	line-height: 20px;
+}
+#attachments{
+	list-style: none;
+	margin-left: 0px;
+}
+#attachments li{
+	background: #F4F4F4;
+	padding: 5px 10px;
+}
+.tab-active{
+	border-color: transparent #ddd #ddd #ddd !important;
+	border-bottom-color: #fff !important;
+	border-top-color: #ddd !important;
+	-webkit-border-radius: 4px 0 0 4px;
+	-moz-border-radius: 4px 0 0 4px;
+	border-radius: 4px 0 0 4px;
+}
+.main-gravatar{
+	float: left;
+	margin: 1px 5px 0 0;
+	width: 18px;
+	height: 18px;
+}
+#set-campaign-title-btn{
+	float: left;
+	font-style: italic; 
+	color: #737373;
+	margin: -14px 0 18px 0;
+	clear: both;
+	font-size: 12px;
+}
+#set-campaign-title-btn-info{
+	float:left;
+	margin:-10px 0 0 6px;
+	color: #737373;
+}
+#set-campaign-title-btn:hover{
+	color: #4774A5;
+}
+#brand-logo{
+	float:left;
+	width:16px;
+	height:16px;
+}
+#delete-brand-logo{
+	float:left;
+	margin: 1px 0 0 10px;
+}
+.thirtytwo{
+	font-size: 11px;
+	color: #7f7f7f;
+}
+#campaign-save-only-btn{
+	position:relative;
+	top: 1px;
+	right: 5px;
+	padding: 6px 10px 7px 10px;
+}
+#regenerate-key{
+	position: relative;
+	top: 8px;
+}
+#two-factor-setup{
+	display: none;
+	background: #f9f9f9;
+	padding: 20px;
+}
+.google-auth{
+	float:left; 
+	margin-right: 20px;
+}
+.google-auth-links{
+	margin-top: -10px;
+}
+.recovery{
+	margin-top: 10px;
+	text-align: center; 
+	font-size: 11px;
+}

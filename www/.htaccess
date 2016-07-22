@@ -1,0 +1,24 @@
+ErrorDocument 404 "[404 error] If you're seeing this error after install, check this FAQ for the fix: https://sendy.co/troubleshooting#404-error"
+
+Options +FollowSymLinks
+Options -Multiviews
+
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteRule ^([a-zA-Z0-9-]+)$ $1.php [L]
+
+# Link tracker
+RewriteRule ^l/([a-zA-Z0-9/]+)$ l.php?i=$1 [L]
+
+# Open tracker
+RewriteRule ^t/([a-zA-Z0-9/]+)$ t.php?i=$1 [L]
+
+# Web version
+RewriteRule ^w/([a-zA-Z0-9/]+)$ w.php?i=$1 [L]
+
+# unsubscribe
+RewriteRule ^unsubscribe/(.*)$ unsubscribe.php?i=$1 [L]
+
+# subscribe
+RewriteRule ^subscribe/(.*)$ subscribe.php?i=$1 [L]

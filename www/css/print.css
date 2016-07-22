@@ -1,0 +1,12 @@
+.sidebar-nav, .navbar-fixed-top{
+	display: none;
+}
+.label, .badge{
+	color: black;
+	background: white;
+	text-shadow: none;
+}
+.well{
+	border: 1px solid #858585;
+	box-shadow: none;
+}
